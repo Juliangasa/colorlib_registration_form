@@ -1,0 +1,94 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#juli-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 942px;
+    border: 1px solid red;
+    background-image:-webkit-linear-gradient(136deg, rgb(224, 195, 252) 0%, rgb(142, 197, 252) 100%);
+}
+#juli-form-big-box{
+    display: flex;
+    margin-top: 100px;
+    margin: 100px 0px;
+    width: 851px;
+    height: 742px;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+.juli-left-side-form{
+    display:flex;
+    flex-direction: column;
+    position: relative;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    width: 427px;
+    height: 742px;
+    background-image: url(../img/img_left_side_form.jpg);
+}
+.juli-promo-text{
+    position: absolute;
+    left: 9%;
+    bottom: 15%;
+    width: fit-content;
+    height: fit-content;
+}
+.juli-promo-text > p{
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 32px;
+    color: white;
+    margin: 32px 0px;
+}
+.juli-promo-text > p > span{
+    font-size: 25px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: white;
+}
+.juli-price-text{
+    position: absolute;
+    right: 8%;
+    bottom: 1.5%;
+    width: fit-content;
+    height: fit-content;
+}
+.juli-price-text > p > span{
+    font-size: 35px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: white;
+}
+.juli-price-text > p{
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: white;
+    margin: 18px 0px;
+}
+#juli-form{
+    width: 424px;
+    height: 742px;
+    background-color: white;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding: 20px 40px;
+}
+#juli-form > h2{
+    font-size: 28px;
+    font-family: "Reboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: black;
+    padding: 6px 0px 0px;
+    margin-top: 23.24px;
+    margin-bottom: 25px;
+}
