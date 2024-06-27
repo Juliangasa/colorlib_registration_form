@@ -8,7 +8,6 @@
     align-items: center;
     width: 100vw;
     height: 942px;
-    border: 1px solid red;
     background-image:-webkit-linear-gradient(136deg, rgb(224, 195, 252) 0%, rgb(142, 197, 252) 100%);
 }
 #juli-form-big-box{
@@ -17,7 +16,6 @@
     margin: 100px 0px;
     width: 851px;
     height: 742px;
-    border: 1px solid black;
     border-radius: 15px;
 }
 .juli-left-side-form{
@@ -91,4 +89,124 @@
     padding: 6px 0px 0px;
     margin-top: 23.24px;
     margin-bottom: 25px;
+}
+.juli-label-input-box{
+    display: flex;
+    flex-direction: column;
+}
+.juli-name-label{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    color: #666666;
+    margin-bottom: 11px;
+}
+.juli-name-input{
+    border: 1px solid #E5E5E5;
+    width: 344.64px;
+    height: 49.8px;
+    border-radius: 5px;
+    padding: 14.5px 15px;
+    margin-bottom: 27px;
+}
+.juli-email-label{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    color: #666666;
+    margin-bottom: 11px;
+}
+.juli-email-input{
+    border: 1px solid #E5E5E5;
+    width: 344.64px;
+    height: 49.8px;
+    border-radius: 5px;
+    padding: 14.5px 15px;
+    margin-bottom: 27px;
+}
+.juli-password-label{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    color: #666666;
+    margin-bottom: 11px;
+}
+.juli-password-input{
+    border: 1px solid #E5E5E5;
+    width: 344.64px;
+    height: 49.8px;
+    border-radius: 5px;
+    padding: 14.5px 15px;
+    margin-bottom: 27px;
+}
+.juli-confirm-label{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    color: #666666;
+    margin-bottom: 11px;
+}
+.juli-confirm-input{
+    border: 1px solid #E5E5E5;
+    width: 344.64px;
+    height: 49.8px;
+    border-radius: 5px;
+    padding: 14.5px 15px;
+    margin-bottom: 27px;
+}
+.juli-check-terms-box{
+    width: 275.2px;
+    height: 53.43px;
+    margin-bottom: 11px;
+}
+.juli-check-terms-box > label{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.juli-check-terms-box > label > input{
+    width: 16.6px;
+    height: 16.6px;
+    cursor: pointer;
+}
+.juli-check-terms-box > label > p{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    color: #666666;
+}
+.juli-check-terms-box > label > p > a{
+    text-decoration: underline;
+    color: #385CB9;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+}
+.juli-submit-bttn-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 160px;
+    height: 50.2px;
+    border: none;
+    margin-top: 6px;
+    margin-bottom: 50px;
+    
+}
+.juli-submit-bttn-box > button{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 16px;
+    color: white;
+    background-color: #3B63CA;
+    border-radius: 6px;
+    width: 100%;
+    height: 100%;
 }
